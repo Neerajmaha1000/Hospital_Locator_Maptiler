@@ -1,0 +1,31 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+#signInDiv {
+    margin-top: 20px;
+}
+
+.logo {
+    max-width: 200px; 
+    margin-bottom: 20px; 
+}
+
+#signInDiv .abcRioButton {
+    background-color: #4285F4; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#signInDiv .abcRioButton:hover {
+    background-color: #357AE8; 
+}
